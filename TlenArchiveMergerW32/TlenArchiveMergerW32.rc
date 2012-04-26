@@ -1,0 +1,230 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\TlenArchiveMergerW32.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "D:\\RYSUNKI\\MK_LOGO.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TLENARCHIVEMERGERW32_DIALOG DIALOGEX 0, 0, 343, 252
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Tlen Archive Merger"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "P O £ ¥ C Z",IDC_BUTTON5,125,122,91,20
+    LTEXT           "Œcie¿ka do katalogu pierwszego archiwum",IDC_STATIC,7,14,135,8
+    LTEXT           "Œcie¿ka do katalogu drugiego archiwum",IDC_STATIC,7,37,127,8
+    LTEXT           "(C) Copyright by Marcin Ka³at 2010 - 2011",IDC_STATIC,7,237,177,8
+    PUSHBUTTON      "O programie",IDC_BUTTON6,237,231,99,14
+    CONTROL         "Nie uwzglêdniaj plików indeksu - chats.idx",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,68,148,10
+    CONTROL         "",IDC_PROGRESS_MERGE,"msctls_progress32",WS_BORDER,17,164,302,14
+    LTEXT           "Postêp operacji",IDC_STATIC_MERGE,17,150,50,8
+    LTEXT           "Œcie¿ka do katalogu wynikowego archiwum",IDC_STATIC,7,87,139,8
+    EDITTEXT        IDC_EDIT1,7,23,275,12
+    EDITTEXT        IDC_EDIT2,7,46,275,12
+    EDITTEXT        IDC_EDIT_ARCHRES,7,97,275,12
+    PUSHBUTTON      "...",IDC_BUTTON1,293,22,32,14
+    PUSHBUTTON      "...",IDC_BUTTON2,293,45,32,14
+    PUSHBUTTON      "...",IDC_BUTTON3,293,96,32,14
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tlen Archive Merger - O programie"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,125,162,50,14
+    LTEXT           "Tlen Archive Merger",IDC_STATIC,71,25,65,8
+    LTEXT           "Wersja  : 1.0.0.13",IDC_STATIC,72,38,60,8
+    LTEXT           "Przenaczeniem programu jest scalanie archiwów komunikatora Tlen.pl. Tlen Archive Merger obs³uguje archiwa komunikatora Tlen.pl w wersji 6.0.3.77 lub ni¿szej.",IDC_STATIC,71,97,222,34
+    LTEXT           "Autor : Marcin Ka³at",IDC_STATIC,71,54,65,8
+    LTEXT           "WWW : http://mkalat.waw.pl",IDC_STATIC,71,67,95,8
+    LTEXT           "(c) Copyright 2010 - 2011 Marcin Ka³at",IDC_STATIC,71,130,125,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TLENARCHIVEMERGERW32_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        VERTGUIDE, 282
+        VERTGUIDE, 293
+        VERTGUIDE, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 245
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        VERTGUIDE, 71
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+        HORZGUIDE, 33
+        HORZGUIDE, 46
+        HORZGUIDE, 62
+        HORZGUIDE, 75
+        HORZGUIDE, 97
+        HORZGUIDE, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,13
+ PRODUCTVERSION 1,0,0,13
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004e4"
+        BEGIN
+            VALUE "CompanyName", "Marcin Kalat"
+            VALUE "FileDescription", "Tlen Archive Merger"
+            VALUE "FileVersion", "1.0.0.13"
+            VALUE "InternalName", "TlenArchiveMergerW32.exe"
+            VALUE "LegalCopyright", "(c) Marcin Kalat 2010 - 2011.  All rights reserved."
+            VALUE "OriginalFilename", "TlenArchiveMergerW32.exe"
+            VALUE "ProductName", "Tlen Archive Merger"
+            VALUE "ProductVersion", "1.0.0.13"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1252
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\TlenArchiveMergerW32.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
